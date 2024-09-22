@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Comienza tu desarrollo con la página de inicio de LeadMark.">
+    <meta name="author" content="Devcrud">
+    <title>NUSEFA TUNJA</title>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/imgs/logo.PNG" type="image/x-icon">
+    <!-- Fuentes e iconos -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Estilos de Bootstrap y LeadMark -->
+    <link rel="stylesheet" href="assets/css/leadmark.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Navegación de la página -->
+    <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
+        <div class="container">
+            <!-- Logo y botón de navegación móvil -->
+            <a class="navbar-brand" href="#">
+                <img src="assets/imgs/logo.PNG" alt="Logo de NUSEFA Tunja" style="max-width: 80px; margin-right: 10px;">
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menú de navegación -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Fortalezas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Programas Académicos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contáctanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="components.html" class="ml-4 nav-link btn btn-success btn-sm rounded">Inscribirme</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Incluye los scripts necesarios para el funcionamiento del menú y otros componentes -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zyidYfg7ecdF/kP5pYjssQ5K9irup3VZgi3h0XB8m" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-6eMMgQ5J8Rmml3yBeZQeHjyyK2VjxJ5B0ZB4g54YypfC5kT5QXa8U6b9kJg4Dxzp1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TI6tvLf/6jpKnWf7tT2V37lYBGHDfS4o9Hsl2T0PiPavk5s2RQ9" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+    <!-- Fin de la Segunda Navegación -->
+    
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Comienza tu desarrollo con la página de inicio de LeadMark.">
+        <meta name="author" content="Devcrud">
+        <title>NUSEFA TUNJA</title>
+        <!-- Favicon -->
+        <link rel="icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+        <!-- Iconos de fuente -->
+        <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+        <!-- Estilos principales de Bootstrap + LeadMark -->
+        <link rel="stylesheet" href="assets/css/leadmark.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <style>
+            /* Estilos básicos del cuerpo */
+            body {
+                font-family: 'Roboto', sans-serif;
+                color: #333;
+                margin: 0;
+                padding: 0;
+            }
+
+            /* Estilos para el encabezado */
+            .header {
+                position: relative;
+                background: url('assets/imgs/header.jfif') no-repeat center center/cover;
+                height: 100vh;
+                color: #fff;
+                text-align: center;
+                padding: 60px 20px;
+            }
+
+            /* Capa de superposición para el encabezado */
+            .header .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.5);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            /* Estilos para el subtítulo del encabezado */
+            .header .subtitle {
+                font-size: 24px;
+                font-weight: 300;
+                margin-bottom: 10px;
+            }
+
+            /* Estilos para el título del encabezado */
+            .header .title {
+                font-size: 48px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+
+            /* Estilos para el SVG en el encabezado */
+            .header .shape svg {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: auto;
+                fill: #fff;
+            }
+
+            /* Estilos para el icono de mouse en el encabezado */
+            .header .mouse-icon {
+                position: absolute;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                cursor: pointer;
+            }
+            .header .mouse-icon .wheel {
+                width: 8px;
+                height: 50px;
+                background: #fff;
+                border-radius: 50px;
+                position: relative;
+                margin: 0 auto;
+            }
+            .header .mouse-icon .wheel::before {
+                content: '';
+                position: absolute;
+                top: 10px;
+                left: 50%;
+                width: 10px;
+                height: 10px;
+                background: #fff;
+                border-radius: 50%;
+                transform: translateX(-50%);
+            }
+
+            /* Estilos para secciones generales */
+            .section {
+                padding: 60px 20px;
+            }
+
+            /* Estilos para el título de sección */
+            .section-title {
+                font-size: 36px;
+                font-weight: 700;
+                margin-bottom: 20px;
+                color: #2E8B57; /* Verde oscuro */
+            }
+
+            /* Estilos para el subtítulo de sección */
+            .section-subtitle {
+                font-size: 24px;
+                font-weight: 300;
+                margin-bottom: 40px;
+                color: #191a19; /* Gris oscuro */
+            }
+
+            /* Estilos para las tarjetas */
+            .card {
+                border: none;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                transition: all 0.3s ease;
+            }
+            .card:hover {
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
+            .card-body {
+                padding: 20px;
+            }
+            .card-title {
+                font-size: 20px;
+                font-weight: 600;
+                margin-top: 10px;
+                color: #333;
+            }
+            .card p {
+                font-size: 16px;
+                color: #666;
+            }
+
+            /* Estilos para texto con color primario */
+            .text-primary {
+                color: #4CAF50 !important; /* Verde brillante */
+            }
+        </style>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+        <!-- Encabezado de la Página -->
+<header class="header">
+    <div class="overlay">
+        <h1 class="subtitle">Institución Educativa</h1>
+        <h1 class="title">
+            <span class="title-main" style="font-size: 0.8em;">Nuestra Señora De Fátima Tunja</span>
+            <span class="title-sub" id="tunja" style="font-size: 1.4em; opacity: 0;"></span>
+        </h1>
+    </div>
+    <div class="shape">
+        <svg viewBox="0 0 1500 200">
+            <!-- SVG para el diseño del encabezado -->
+            <path d="m 0,240 h 1500.4828 v -71.92164 c 0,0 -286.2763,-81.79324 -743.19024,-81.79324 C 300.37862,86.28512 0,168.07836 0,168.07836 Z"/>
+        </svg>
+    </div>
+    <div class="mouse-icon">
+        <!-- Icono de scroll para navegación -->
+        <div class="wheel"></div>
+    </div>
+</header>
+<!-- Fin del Encabezado de la Página -->
+
+
+
+    
+     <!-- Sección de Servicios -->
+<section id="service" class="section pt-0">
+    <div class="container">
+        <!-- Títulos de la sección -->
+        <h6 class="section-title text-center">Lo que nos define</h6>
+        <h6 class="section-subtitle text-center mb-5 pb-3">Fe, Disciplina y Excelencia</h6>
+
+        <div class="row">
+            <!-- Tarjeta 1 -->
+            <div class="col-md-4 mb-4 section-left">
+                <div class="card border-0 shadow-sm rounded">
+                    <div class="card-body text-center">
+                        <small class="text-primary font-weight-bold d-block mb-2">01</small>
+                        <h5 class="card-title mb-3">Nuestra Espiritualidad</h5>
+                        <p class="card-text">En Nuestra Señora de Fátima, la fe es el pilar fundamental de nuestra formación. Nos esforzamos por crear un ambiente que fomente el crecimiento espiritual y el desarrollo de valores cristianos en nuestros estudiantes.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta 2 -->
+            <div class="col-md-4 mb-4 section-right">
+                <div class="card border-0 shadow-sm rounded">
+                    <div class="card-body text-center">
+                        <small class="text-primary font-weight-bold d-block mb-2">02</small>
+                        <h5 class="card-title mb-3">Nuestra Formación Militar</h5>
+                        <p class="card-text">La formación militar es una parte integral de nuestra educación. Nos enfocamos en desarrollar la disciplina, el liderazgo y la responsabilidad en nuestros estudiantes, preparándolos para ser ciudadanos comprometidos y respetuosos.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta 3 -->
+            <div class="col-md-4 mb-4 section-left">
+                <div class="card border-0 shadow-sm rounded">
+                    <div class="card-body text-center">
+                        <small class="text-primary font-weight-bold d-block mb-2">03</small>
+                        <h5 class="card-title mb-3">Nuestra Excelencia Académica</h5>
+                        <p class="card-text">En Nuestra Señora de Fátima, nos comprometemos a ofrecer una educación de alta calidad. Nuestros estudiantes reciben una formación rigurosa y personalizada que los prepara para alcanzar sus metas y ser líderes en sus campos de interés.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Fin de la Sección de Servicios -->
+
+
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6 pr-md-5 mb-4 mb-md-0">
+                    <h6 class="section-title mb-0">NUSEFA</h6>
+                    <h6 class="section-subtitle mb-4">¿Quienes somos?</h6>
+                    <p >
+                        Bienvenidos al Colegio Nuestra Señora de Fátima, donde cada alumno es una estrella destinada a brillar. Somos una familia comprometida con la excelencia académica, el crecimiento personal y el desarrollo espiritual. Inspirados por la fe y guiados por valores cristianos, ofrecemos una educación integral que nutre el cuerpo, la mente y el espíritu. En nuestro acogedor entorno, los estudiantes encuentran seguridad y estímulo para explorar su curiosidad, expresar su creatividad y cultivar el amor por el aprendizaje.</p>
+                    <img src="assets/imgs/about-1.jfif" alt="" class="w-100 mt-3 shadow-sm">
+                </div>
+                <div class="col-md-6 pl-md-5">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/imgs/IMG_4618.JPG" alt="" class="w-100 shadow-sm">
+                        </div>
+                        <div class="col-6">
+                            <img src="assets/imgs/IMG_4611 (1).JPG" alt="" class="w-100 shadow-sm">
+                        </div>
+                        <div class="col-12 mt-4">
+                            <p>El Colegio Nuestra Señora de Fátima Tunja se destaca por su educación integral basada en valores cristianos y éticos, formando individuos íntegros, competentes y comprometidos con la sociedad.</p>
+                            <p><b>Ofrece un enfoque constructivista con un ambiente de aprendizaje activo y significativo, guiado por docentes altamente calificados. La comunidad educativa es sólida y acogedora, fomentando un fuerte sentido de pertenencia. Brinda beneficios especiales a familias de policías, incluyendo descuentos, apoyo y un ambiente seguro.</b><br>
+                            </p>
+                            <p>Cuenta con amplias instalaciones, variedad de actividades extracurriculares y tecnología integrada al proceso educativo. Logra excelentes resultados académicos y prepara a sus estudiantes para un futuro exitoso.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>              
+        </div>
+    </section>
+    <!-- End OF About Section -->
+     
+<!-- Sección de Portafolio -->
+<section id="portfolio" class="section portfolio-section">
+    <div class="container">
+        <h6 class="section-title text-center">GALERÍA NUSEFISTA</h6>
+        <h6 class="section-subtitle mb-5 text-center">Recuerdos que le dan brillo a nuestra institución.</h6>
+        
+        <!-- Filtros para Categorías -->
+        <div class="filters">
+            
+            <a href="#" data-filter=".comunidad">Comunidad</a>
+            <a href="#" data-filter=".instalaciones">Instalaciones</a>
+            <a href="#" data-filter=".eventos">Eventos</a>
+            
+        </div>
+        
+<!-- Contenedor del Portafolio -->
+<div class="portfolio-container">
+    <!-- Comunidad -->
+    <div class="col-md-6 col-lg-4 comunidad">
+        <div class="portfolio-item">
+            <img src="assets/imgs/profes.png" class="img-fluid" alt="Docentes">
+            <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/profes.png"></a>
+                <div class="text-holder">
+                    <h6 class="title">Docentes</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-6 col-lg-4 comunidad">
+        <div class="portfolio-item">
+            <img src="assets/imgs/IMG_4619.JPG" class="img-fluid" alt="Estudiantes">
+            <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/IMG_4619.JPG"></a>
+                <div class="text-holder">
+                    <h6 class="title">Estudiantes</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4 comunidad">
+        <div class="portfolio-item">
+            <img src="assets/imgs/IMG_4620.PNG" class="img-fluid" alt="Banda Marcial">
+            <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/IMG_4620.PNG"></a>
+                <div class="text-holder">
+                    <h6 class="title">Banda Marcial</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4 comunidad">
+        <div class="portfolio-item">
+            <img src="assets/imgs/siuuuu.jfif" class="img-fluid" alt="PROM 2024">
+            <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/siuuuu.jfif"></a>
+                <div class="text-holder">
+                    <h6 class="title">PROM 2024</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4 comunidad">
+        <div class="portfolio-item">
+            <img src="assets/imgs/PRIMARIA.jfif" class="img-fluid" alt="Primaria">
+            <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/PRIMARIA.jfif"></a>
+                <div class="text-holder">
+                    <h6 class="title">Primaria</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4 comunidad">
+        <div class="portfolio-item">
+            <img src="assets/imgs/CoiJ32ZVIAES8si.jfif" class="img-fluid" alt="Bachillerato">
+            <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/CoiJ32ZVIAES8si.jfif"></a>
+                <div class="text-holder">
+                    <h6 class="title">Bachillerato</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4 comunidad">
+        <div class="portfolio-item">
+            <img src="assets/imgs/lola.jpg" class="img-fluid" alt="Preescolar">
+            <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/lola.jpg"></a>
+                <div class="text-holder">
+                    <h6 class="title">Preescolar</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4 comunidad">
+        <div class="portfolio-item">
+            <img src="assets/imgs/rector.png" class="img-fluid" alt="Rector">
+            <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/rector.png"></a>
+                <div class="text-holder">
+                    <h6 class="title">Rector</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Instalaciones -->
+    <div class="col-md-6 col-lg-4 instalaciones">
+        <div class="portfolio-item">
+            <img src="assets/imgs/Cancha_cubierta.jpg" class="img-fluid" alt="Cancha Cubierta">
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 instalaciones">
+        <div class="portfolio-item">
+            <img src="assets/imgs/NUSEFA.jpg" class="img-fluid" alt="Laboratorio NUSEFA">
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 instalaciones">
+        <div class="portfolio-item">
+            <img src="assets/imgs/PRESCO.jpg" class="img-fluid" alt="Laboratorio PRESCO">
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 instalaciones">
+        <div class="portfolio-item">
+            <img src="assets/imgs/LOPSPAPA.jpg" class="img-fluid" alt="Laboratorio LOPSPAPA">
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 instalaciones">
+        <div class="portfolio-item">
+            <img src="assets/imgs/PUENTE.jpg" class="img-fluid" alt="Puente">
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 instalaciones">
+        <div class="portfolio-item">
+            <img src="assets/imgs/hola.jpg" class="img-fluid" alt="Cancha Descubierta">
+        </div>
+    </div>
+
+    <!-- Eventos -->
+    <div class="col-md-6 col-lg-4 eventos">
+        <div class="portfolio-item">
+            <img src="assets/imgs/ANIVERSARIO.jfif" class="img-fluid" alt="63 Aniversario Nusefista">
+            <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/ANIVERSARIO.jfif"></a>
+                <div class="text-holder">
+                    <h6 class="title">63 Aniversario Nusefista</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 eventos">
+        <div class="portfolio-item">
+            <img src="assets/imgs/DIADELAFAMILIA.jpg" class="img-fluid" alt="Día del Deporte">
+            <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/DIADELAFAMILIA.jpg"></a>
+                <div class="text-holder">
+                    <h6 class="title">Día del Deporte</h6>
+                    <p class="subtitle">Fomentando la actividad física</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 eventos">
+        <div class="portfolio-item">
+            <img src="assets/imgs/IMG_4618.JPG" class="img-fluid" alt="Eventos">
+            <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/IMG_4618.JPG"></a>
+                <div class="text-holder">
+                    <h6 class="title">Evento</h6>
+                    <p class="subtitle">Descripción del evento</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 eventos">
+        <div class="portfolio-item">
+            <img src="assets/imgs/IMG_4619.JPG" class="img-fluid" alt="Eventos">
+            <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/IMG_4619.JPG"></a>
+                <div class="text-holder">
+                    <h6 class="title">Evento</h6>
+                    <p class="subtitle">Descripción del evento</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- End of portfolio section -->
+
+
+    <!-- Contenedor del Portafolio -->
+<div class="portfolio-container">
+    <!-- Comunidad -->
+    <!-- Aquí va el contenido del portafolio como lo has mostrado -->
+</div>
+<!-- Fin del contenedor del portafolio -->
+
+<!-- Botón para la galería de videos -->
+<div class="button-container">
+    <a href="index_galeria.html" class="button">Ver Galería de Videos</a>
+</div>
+
+
+    
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Video</title>
+    <style>
+        .video-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        video {
+            width: 100%;
+            max-width: 640px; /* Ajusta el tamaño máximo del video */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <h2>Conoce nuestras instalaciones</h2>
+        <video controls>
+            <source src="assets/videos/xd.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información y Galería Compacta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .info-gallery-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .info {
+            flex: 1;
+            margin-right: 20px;
+            padding: 10px;
+        }
+        .info h1 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .info p {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .gallery {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .carousel {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+        .carousel-inner {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .carousel-inner img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .carousel-control {
+            position: absolute;
+            top: 50%;
+            width: 30px;
+            height: 30px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+            line-height: 30px;
+            cursor: pointer;
+            border-radius: 50%;
+            z-index: 1;
+            font-size: 20px;
+            transform: translateY(-50%);
+        }
+        .carousel-control.prev {
+            left: 10px;
+        }
+        .carousel-control.next {
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="info-gallery-container">
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Información y Video</title>
+            <style>
+                /* Estilos generales para el cuerpo del documento */
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #f4f4f4;
+                }
+                /* Estilos para la sección de información y video */
+                .info-gallery-container {
+                    display: flex;
+                    flex-direction: column; /* Cambiado a columna para colocar video debajo de la información */
+                    align-items: center;
+                    padding: 20px;
+                    max-width: 1200px;
+                    margin: 20px auto;
+                    background-color: #fff;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    border-radius: 8px;
+                }
+                /* Estilos para la sección de información */
+                .info {
+                    flex: 1;
+                    margin-bottom: 20px; /* Añadido margen inferior para separar la información del video */
+                    padding: 10px;
+                }
+                .info h1 {
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                }
+                .info p {
+                    font-size: 14px;
+                    line-height: 1.6;
+                    color: #333;
+                }
+                /* Estilos para la sección de video */
+                .video-container {
+                    text-align: center;
+                }
+                video {
+                    width: 100%;
+                    max-width: 640px; /* Ajusta el tamaño máximo del video */
+                    height: auto;
+                    border-radius: 8px;
+                }
+            </style>
+        </head>
+        <body>
+            <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUSEFA - Historia y Video</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .info-video-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .info {
+            flex: 1;
+            margin-left: 20px;
+        }
+        .info h1 {
+            font-size: 24px;
+            color: #2c3e50;
+        }
+        .info p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .video-container {
+            flex: 1;
+            text-align: center;
+        }
+        video {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="info-video-container">
+        <!-- Sección de Video (izquierda) -->
+        <div class="video-container">
+            <video controls>
+                <source src="assets/videos/Aniversario 60 años Colegio Nuestra Señora de Fátima NUSEFA-TUNJA.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+
+        <!-- Sección de Información (derecha) -->
+        <div class="info">
+            <h1>HISTORIA NUSEFISTA</h1>
+            <p>
+                A comienzos del año de 1962, la Dirección de Bienestar Social delegó la responsabilidad en la ciudad de Tunja a la hermana Sor Teresa de San Pablo para fundar el colegio Nuestra Señora de Fátima en el departamento de Boyacá. En 1964 se dio inicio a la construcción de la sede actual concluyendo gran parte del inmueble en 1972 bajo la rectoría de la hermana Julia Hismenia, ya en 1981 egresó la primera promoción de bachilleres del plantel educativo.
+                Durante su aniversario se desarrollaron actividades culturales, además se efectuó un desfile de faroles por las principales vías de la localidad alusivo a la Virgen de Fátima, finalmente se realizó un reconocimiento a un personal que se ha destacado en su labor docente y directiva.
+                
+                
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+        
+            <!-- Sección del Blog -->
+            <section class="section" id="blog">
+                <div class="container">
+                    <h6 class="section-title mb-0 text-center">Programa Académico</h6>
+                    <h6 class="section-subtitle mb-5 text-center">Descubre nuestros niveles educativos</h6>
+        
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card border-0 mb-4">
+                                <img src="assets/imgs/preescolar.png" alt="Preescolar" class="card-img-top w-100">
+                                <div class="card-body">                         
+                                    <h6 class="card-title">Preescolar</h6>
+                                    <p>En el nivel de preescolar, el programa se centra en el desarrollo de las habilidades básicas del lenguaje, la motricidad, las habilidades sociales y emocionales, y el pensamiento creativo. Se utilizan metodologías lúdicas y activas que permiten a los niños aprender de manera divertida y significativa.</p>
+                                    <a href="javascript:void(0)" class="small text-muted">Leer Más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 mb-4">
+                                <img src="assets/imgs/primaria.png" alt="Primaria" class="card-img-top w-100">
+                                <div class="card-body">                         
+                                    <h6 class="card-title">Primaria</h6>
+                                    <p>En el nivel de primaria, el programa se centra en el desarrollo de las competencias básicas en las áreas de lenguaje, matemáticas, ciencias naturales, ciencias sociales, inglés y educación artística. Se utilizan estrategias de enseñanza que promueven el pensamiento crítico, la resolución de problemas y el trabajo en equipo.</p>
+                                    <a href="javascript:void(0)" class="small text-muted">Leer Más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 mb-4">
+                                <img src="assets/imgs/bachillerato.png" alt="Bachillerato" class="card-img-top w-100">
+                                <div class="card-body">                         
+                                    <h6 class="card-title">Bachillerato</h6>
+                                    <p>El programa de bachillerato ofrece dos modalidades: académica y vocacional. Ambas modalidades preparan a los estudiantes para su futuro, ya sea en la educación superior o en el mundo laboral. Además, el colegio, en alianza con el SENA, ofrece una modalidad de bachillerato con la cual los estudiantes pueden obtener un título técnico adicional al de bachiller.</p>
+                                    <a href="javascript:void(0)" class="small text-muted">Leer Más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Fin de la Sección del Blog -->
+        </body>
+        </html>
+        
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Testimonios</title>
+            <style>
+                /* Estilos generales para el cuerpo del documento */
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #f4f4f4;
+                }
+                /* Estilos para la sección de testimonios */
+                #testmonial {
+                    background-color: #fff;
+                    padding: 40px 0;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }
+                #testmonial .section-title {
+                    font-size: 24px;
+                    color: #333;
+                }
+                #testmonial .section-subtitle {
+                    font-size: 18px;
+                    color: #666;
+                    margin-bottom: 40px;
+                }
+                .testimonial-card {
+                    max-width: 600px;
+                    margin: 0 auto;
+                    text-align: center;
+                    padding: 20px;
+                    border-radius: 8px;
+                    background: #e9f5f9;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s, box-shadow 0.3s;
+                }
+                .testimonial-card:hover {
+                    transform: scale(1.05);
+                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+                }
+                .testimonial-card img {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    margin-bottom: 20px;
+                    border: 4px solid #1e90ff;
+                }
+                .testimonial-card h6 {
+                    font-size: 22px;
+                    margin-bottom: 10px;
+                    color: #333;
+                }
+                .testimonial-card small {
+                    font-size: 16px;
+                    color: #777;
+                }
+                .testimonial-card p {
+                    font-size: 16px;
+                    color: #333;
+                    line-height: 1.5;
+                }
+            </style>
+        </head>
+        <body>
+            <!-- Sección de mi rector favorito xd -->
+           <!-- Sección del Rector -->
+<section class="rector-section" id="rector">
+    <div>
+        <img src="assets/imgs/rector-removebg-preview.png" alt="Teniente Isnardo Avendaño Cruz" class="rector-img">
+        <h2 class="rector-title">Teniente Isnardo Avendaño Cruz</h2>
+        <h4 class="rector-subtitle">Rector de la Institución</h4>
+        <p class="rector-text">
+            El Teniente Isnardo Avendaño Cruz ha liderado la institución educativa con una visión clara de excelencia académica y disciplina. Bajo su rectoría, el colegio ha alcanzado grandes logros en el ámbito educativo y social, destacándose como una de las mejores instituciones de la región.
+        </p>
+    </div>
+</section>
+
+            <!-- Fin de la Sección de Testimonios -->
+        </body>
+        </html>
+        
+    <!-- End of Testmonial Section -->
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mapa del Colegio</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4; /* Color de fondo general para la página */
+                margin: 0;
+                padding: 0;
+            }
+    
+            .map-title {
+                text-align: center;
+                font-size: 24px;
+                font-weight: bold;
+                color: #4CAF50; /* Color del texto del título */
+                margin: 20px 0;
+            }
+    
+            .map-container {
+                position: relative;
+                width: 90%;
+                max-width: 1000px; /* Tamaño máximo del contenedor del mapa */
+                margin: 0 auto; /* Centra el contenedor en la página */
+                border: 5px solid #4CAF50; /* Color del borde */
+                border-radius: 15px; /* Bordes redondeados */
+                overflow: hidden;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra */
+            }
+    
+            .map-container iframe {
+                width: 100%;
+                height: 500px; /* Ajusta la altura según lo necesario */
+                border: none; /* Elimina el borde del iframe */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="map-title">Ubicación del Colegio Nuestra Señora de Fátima Tunja</div>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2024.9472501325602!2d-73.36991716781101!3d5.530308839957376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a7c23d6d61e2d%3A0xdb694ba9a0279e24!2sColegio%20Nuestra%20Se%C3%B1ora%20De%20Fatima%20Tunja!5e0!3m2!1ses-419!2sco!4v1726354505019!5m2!1ses-419!2sco" 
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </body>
+    </html>
+    
+    
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="assets/css/styles.css"> <!-- Asegúrate de que el archivo CSS esté vinculado correctamente -->
+    </head>
+    <body>
+        <!-- Contactame bebeeeee xd -->
+        <section id="contact" class="section has-img-bg pb-0">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-5 my-3">
+                        <h6 class="mb-0">Teléfono</h6>
+                        <p class="mb-4">3102175303 - 3224487268</p>
+    
+                        <h6 class="mb-0">Dirección</h6>
+                        <p class="mb-4">Carrera 15 No. 16-01, Barrio Ricaurte</p>
+    
+                        <h6 class="mb-0">Correo Electrónico</h6>
+                        <p class="mb-0">deboy.nusefa-rectoria@policia.gov.co</p>
+                    </div>
+                    <div class="col-md-7">
+                        <form>
+                            <h4 class="mb-4">Contáctenos</h4>
+                            <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                    <input type="text" class="form-control text-white rounded-0 bg-transparent" name="name" placeholder="Nombre" required>
+                                </div>
+                                <div class="form-group col-sm-4">
+                                    <input type="email" class="form-control text-white rounded-0 bg-transparent" name="email" placeholder="Correo Electrónico" required>
+                                </div>
+                                <div class="form-group col-sm-4">
+                                    <input type="text" class="form-control text-white rounded-0 bg-transparent" name="subject" placeholder="Asunto" required>
+                                </div>
+                                <div class="form-group col-12">
+                                    <textarea name="message" id="" cols="30" rows="4" class="form-control text-white rounded-0 bg-transparent" placeholder="Mensaje" required></textarea>
+                                </div>
+                                <div class="form-group col-12 mb-0">
+                                    <button type="submit" class="btn btn-primary rounded w-md mt-3">Enviar</button>
+                                </div>                          
+                            </div>                          
+                        </form>
+                    </div>
+                </div>
+                <!-- Page Footer -->
+                <footer class="mt-5 py-4 border-top border-secondary">
+                    <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>, Policía Nacional <a href="https://www.policia.gov.co/" target="_blank">Policia.gov.co</a>. Derechos de autor</p>     
+                </footer>
+                <!-- End of Page Footer -->  
+            </div>
+        </section>
+        
+        <!-- core  -->
+        <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+        <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    
+        <!-- bootstrap 3 affix -->
+        <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    
+        <!-- Isotope -->
+        <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+    
+        <!-- LeadMark js -->
+        <script src="assets/js/leadmark.js"></script>
+    </body>
+    </html>
+    
